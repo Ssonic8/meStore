@@ -319,3 +319,26 @@ input[type="checkbox"].visually-hidden {
 .features__card-two {
   background: url("../img/features/card002.jpg") center no-repeat;
 }
+
+.features__card-content {
+  padding-top: 50px;
+  padding-left: 46px;
+  width: 205px;
+}
+
+.features__card-content h4 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: -0.075em;
+}
+
+.features__card-content h4 span {
+  color: #f9236f;
+}
+
+.features__card-content p {
+  margin-bottom: 30px;
+  font-size: 14px;
+}

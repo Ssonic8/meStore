@@ -45,5 +45,25 @@
 		&-two {
 			background:url('../img/features/card002.jpg') center no-repeat;
 		}
+		&-content {
+			padding-top: 50px;
+			padding-left: 46px;
+			width: 205px;
+			& h4 {
+				margin: 0;
+				font-size: 48px;
+				font-weight: 900;
+				line-height: 40px;
+				letter-spacing: -0.075em;
+				& span {
+					color: #f9236f;
+				}
+			}
+			& p {
+				margin-bottom: 30px;
+				font-size: 14px;
+			}
+		}
+
 	}
 }
