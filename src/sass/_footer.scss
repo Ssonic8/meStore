@@ -1,0 +1,87 @@
+.footer {
+	background: #f92353 url('../img/footer/footer-bg.jpg') top center no-repeat;
+	font-weight: 400;
+	color: #fff;
+	& a {
+		color: #fff;
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 80px;
+	}
+	&__title {
+		font-size: 22px;
+		line-height: 28px;
+		font-weight: 700;
+	}
+	&__about {
+		width: 320px;
+		font-size: 15px;
+		&-item {
+			display: flex;
+			margin-top: 12px;			
+		}
+		&-info {
+			margin-top: 30px;
+			margin-bottom: 35px;
+			width: 240px;
+		}
+		&-img {
+			margin-right: 16px;
+		}
+	}
+	&__account, &__product {
+		&-item {
+			display: flex;
+			align-items: center;
+			min-height: 35px;
+			& a {
+				border-bottom: 1px solid transparent;
+				&:hover {
+				border-bottom: 1px solid rgba(#fff, 0.7);
+				}
+			}
+		}
+	}
+	&__right {
+		display: flex;
+		flex-direction: column;
+	}
+	&__social {
+		&-list {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: 290px;
+		}
+		&-item {
+			display: flex;
+			align-items: center;
+			width: 130px;
+			& p {
+				margin: 0;
+				padding-top: 8px;
+				padding-bottom: 8px;
+				font-size: 15px;
+			}
+		}
+		&-icon {
+			margin-right: 10px;
+		}
+	}
+	&__payment {
+		&-list {
+			display: flex;
+		}
+		&-item {
+			margin-right: 15px;	
+		}
+	}
+	&__copyright p {
+		margin-bottom: 0;
+		text-align: center;
+		font-size: 12px;
+		font-weight: 400;
+	}
+}

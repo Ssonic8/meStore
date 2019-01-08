@@ -1,9 +1,10 @@
 .sale {
-	height: 760px;
+	height: 820px;
 	background: url('../img/main/main-bg.jpg') top center no-repeat;
-	margin-top: -16px;
+	margin-top: -18px;
 	&__wrapper {
 		position: absolute;
+		width: 1170px;
 		margin-top: -110px;
 		background-color: #fff;
 	}
@@ -94,9 +95,10 @@
 		}
 		&-button {
 			border: none;
+			cursor: pointer;
   		padding: 14px 34px;
 			font-size: 18px;
-			font-weight: 700;
+			font-weight: 600;
 		}
 	}
 }
