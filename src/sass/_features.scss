@@ -1,5 +1,12 @@
 .features {
-	background-color: #fff;
+	height: 1180px;
+	background: url('../img/main/main-bg.jpg') top center no-repeat;
+	&__wrapper {
+		position: absolute;
+		width: 1170px;
+		margin-top: -60px;
+		background-color: #fff;
+	}	
 	&__list {
 		display: flex;
 		justify-content: space-between;
@@ -80,6 +87,7 @@
 		}
 		&-slider {
 			position: relative;
+			margin-top: 24px;
 			padding-bottom: 110px;
 			width: 1110px;
 		}

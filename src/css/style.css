@@ -7,10 +7,6 @@ body {
   color: #000;
 }
 
-.page-main {
-  background: url("../img/main/main-bg.jpg") top center no-repeat;
-}
-
 a {
   text-decoration: none;
 }
@@ -40,6 +36,7 @@ ul {
 }
 
 .container {
+  position: relative;
   margin: 0 auto;
   padding: 0 0;
   width: 1170px;
@@ -242,6 +239,14 @@ input[type="checkbox"].visually-hidden {
 }
 
 .features {
+  height: 1180px;
+  background: url("../img/main/main-bg.jpg") top center no-repeat;
+}
+
+.features__wrapper {
+  position: absolute;
+  width: 1170px;
+  margin-top: -60px;
   background-color: #fff;
 }
 
@@ -368,6 +373,7 @@ input[type="checkbox"].visually-hidden {
 
 .features__products-slider {
   position: relative;
+  margin-top: 24px;
   padding-bottom: 110px;
   width: 1110px;
 }
@@ -436,4 +442,94 @@ input[type="checkbox"].visually-hidden {
   background: url("../img/features/left.jpg") center no-repeat;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.news {
+  min-height: 890px;
+  background: url("../img/news/news-bg.jpg") top center no-repeat;
+}
+
+.news__title {
+  margin: 0;
+  padding-top: 130px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.news__subtitle {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.news__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.news__card {
+  width: 360px;
+  background-color: #fff;
+}
+
+.news__card-content {
+  padding: 30px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #494949;
+}
+
+.news__card-content h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+  color: #515151;
+}
+
+.news__card-content small {
+  color: #a8a8a8;
+}
+
+.news__card-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-top: 25px;
+}
+
+.news__card-buttons button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 40px;
+}
+
+.news__card-button {
+  margin-right: auto;
+  padding: 10px 17px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.news__card-like {
+  border-right: 1px solid #cbcbcb !important;
 }

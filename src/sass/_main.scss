@@ -7,9 +7,6 @@ body {
   color: #000;
 }
 
-.page-main {
-  background: url('../img/main/main-bg.jpg') top center no-repeat;
-}
 a {
  text-decoration: none;
 }
@@ -40,6 +37,7 @@ ul {
 }
 
 .container {
+  position: relative;
   margin: 0 auto;
   padding: 0 0;
   width: 1170px;
